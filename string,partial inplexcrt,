@@ -1,0 +1,88 @@
+class Main{
+
+public static void main (String []arr)
+{
+    String s1="rajasthan";
+    
+    System.out.println(s1.substring (4));
+    System.out.println(s1.substring(4,6));
+}
+}
+
+=======================
+=========================
+class Main{
+
+public static void main (String []arr)
+{
+    String s1 = "Rajasthan";
+    
+    System.out.println(s1.toUpperCase());
+     System.out.println(s1.toLowerCase());
+    
+     String s2 ="sonu ";
+     String s3="      Devi       ";
+     String s4=" Rawat";
+     
+     System.out.println(s2+s3+s4);
+      System.out.println(s2+s3.trim()+s4);
+      System.out.println(s2.trim()+s3.trim()+s4.trim());
+     
+    
+}
+}
+
+========================
+========================
+
+class Main{
+
+public static void main (String []arr)
+{
+    String s1 = "Rajasthan";
+    
+    System.out.println(s1.lastIndexOf("a"));
+     System.out.println(s1.lastIndexOf("k"));
+     System.out.println(s1.lastIndexOf("a",5));
+     System.out.println(s1.lastIndexOf("a",3));
+     System.out.println(s1.lastIndexOf("a",2));
+    
+    
+}
+}
+==========================================
+=====================================
+class Main {
+     public static void main (String hhh[])
+     
+     {
+         String s1="Renu";
+         String s2="shalu";
+         
+         
+         System.out.println(s1+s2);
+         System.out.println(s1.concat(s2));
+         System.out.println(s2.concat(s1));
+     }
+ }
+ 
+ =========================
+ =========================
+public class Main
+{
+public static void main(String[] args) {
+ String s1 = "AJMER";
+ for (int i = s1.length(); i >= 0; i--) 
+{
+ for (int j = 0; j < i; j++) 
+ {
+ System.out.print(" ");
+ }
+for (int k = i; k < s1.length(); k++)
+{
+System.out.print(s1.charAt(k));
+}
+ System.out.println();
+}
+}
+}
